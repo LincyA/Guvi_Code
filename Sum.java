@@ -10,7 +10,7 @@ Scanner sc = new Scanner(System.in);
 int number = sc.nextInt();
 if(number<0)
 {
- System.out.println("Enter a positive no."");  
+ System.out.println("Enter a positive number");  
 }
 for(int i=1;i<=number;i++)
     {
