@@ -8,6 +8,10 @@ int sum=0;
 System.out.println("Enter a number = ");
 Scanner sc = new Scanner(System.in);
 int number = sc.nextInt();
+if(number<0)
+{
+ System.out.println("Enter a positive no."");  
+}
 for(int i=1;i<=number;i++)
     {
         sum += i; 
