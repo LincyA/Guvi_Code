@@ -4,6 +4,7 @@ class Wrdlength
 {
 public static void main(String[] a)
 { 
+int count=0;
 System.out.println("Enter the size of the array = ");
 Scanner sc = new Scanner(System.in);
 int n = sc.nextInt();
@@ -15,12 +16,13 @@ System.out.println("Enter the elements : ");
 }
 System.out.println("Enter the word length= ");
 int l = sc.nextInt();
-System.out.println("The word(s) of length" + l+"is/are");
+System.out.println("The no.of word(s) of length" + l +"is/are");
  for(int i=0;i<w.length;i++)
 {
  if(w[i].length()==l)
  {
- System.out.println(w[i]);
+ count++;
  }
  }
+System.out.println(count);
 }}
